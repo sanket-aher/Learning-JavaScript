@@ -1,21 +1,26 @@
 /* String Methods : action that perform on the object. Syntax stringName.method()  */
 
 /* 1)trim() : Trims whitespace from both ends of string and returns a new one. */
+/* Ex1 */
 let trimMsg="  Hello  ";
 let newTrimmsg = trimMsg.trim();
 console.log(newTrimmsg);  /* 'Hello' */
 
+/* Ex2 */
 let trimMsg1="  He llo  ";
 let newTrimmsg1 = trimMsg1.trim();
 console.log(newTrimmsg1);  /* 'He llo' */
 
 /* String are Immutable : No changes can be made to original strings.Whenever we do try to make a change, a new string is created and old remaining as it is. */
+
+/* Ex3 */
 let trimMsg2="Hello  ";
 let newTrimmsg2 = trimMsg2.trim();
 console.log(newTrimmsg2);  /* 'Hello' */
 console.log(trimMsg2);  /* 'Hello  ' */
 
-/* 2) toUpperCase() : It converts a string to uppercase letter.  toLowerCase() : It converts a string to lowercase letter. */
+/* 2) toUpperCase() : It converts a string to uppercase letter.
+      toLowerCase() : It converts a string to lowercase letter. */
 let Name="John Cena";
 console.log(Name.toUpperCase()); // JOHN CENA
 console.log(Name.toLowerCase()); // john cena
