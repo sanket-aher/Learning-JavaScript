@@ -7,6 +7,7 @@ Welcome to the JavaScript Part 4 repository! This repository is designed to deep
 We have divided the JavaScript Part 4 repository into two folders to facilitate better understanding of the topics covered:
 
 ### 1st Folder: Loops
+[Link](https://github.com/sanket-aher/Learning-JavaScript/tree/main/Javascript%20Part4/Loops)
 
 In the first folder, we cover various aspects of loops and iteration, including:
 
@@ -20,6 +21,7 @@ In the first folder, we cover various aspects of loops and iteration, including:
 - **Nested for-of Loop**: Explore nested for-of loops for iterating over nested arrays.
 
 ### 2nd Folder: Mini Todo App using JavaScript
+[Link](https://github.com/sanket-aher/Learning-JavaScript/tree/main/Javascript%20Part4/TodoApp-JS)
 
 In the second folder, we provide a hands-on example of building a Mini Todo App using JavaScript. This practical application will allow you to apply the concepts learned in the first folder to create a functional todo list.
 
