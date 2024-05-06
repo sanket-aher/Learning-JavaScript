@@ -174,7 +174,7 @@ var msg2="Hey Good";
                                 }
     Q. Difference between Function Expression and Function Declaration.
     => Function Expression : Function doest have any name. Syntax : let varName=function(para1,para2,..){ }
-    => Function Expression : Function having name.         Syntax : function functionName(para1,para2,..){ }
+    => Function Declaration : Function having name.         Syntax : function functionName(para1,para2,..){ }
 */
 /* Ex1 */
 let sum3=function(a,b){
