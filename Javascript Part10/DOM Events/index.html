@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="console.log('button was clicked');console.log('hello world!');">Click Me</button>
+    <button onclick="fn1();fn2();">Click Me</button>
+
+    <div class="contain">
+        <button>Like Me1</button>
+        <button>Like Me2</button>
+        <button>Like Me3</button>
+    </div>
+
+    <div class="evts">
+        <button>Like Me1!!!</button>
+        <button>Like Me2!!!</button>
+        <button>Like Me3!!!</button>
+        <p>This is Para</p>
+        <div class="box"></div>
+    </div>
+
+    <div class="thisEvt">
+        <button class="firstBtn">Click Me</button>
+        <h1>Use of 'this' in Event Listeners</h1>
+        <h3>Let's demo it on elements</h3>
+        <p>This is a Sample Paragraph</p>
+        <button class="secondBtn">Click Me</button>        
+    </div>
+
+    <div class="key">
+        <input type="text" placeholder="type something">
+    </div>
+    <div class="key1">
+        <input type="text" placeholder="Move your character">
+    </div>
+
+    <div class="frm1"> 
+        <form action="/action1">
+            <input type="text" placeholder="username">
+            <button>Register1</button>
+        </form>
+    </div>
+
+    <div class="frm2"> 
+        <form action="/action2">
+            <input type="text" placeholder="username" id="user">
+            <input type="password" placeholder="password" id="pass">
+            <button>Register2</button>
+        </form>
+    </div>
+
+    <div class="frm3"> 
+        <form action="/action3">
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password" >
+            <button>Register3</button>
+        </form>
+    </div>
+
+    <div class="cng">
+        <input type="text">
+        <button>Press1</button>
+    </div>
+
+    <div class="inpt">
+        <input type="text">
+        <button>Press2</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
