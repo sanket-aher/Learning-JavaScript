@@ -36,8 +36,8 @@ function SayName(){
     console.log("John"); // John
 }
 
-/* iii)event Listner : A function in JS that waits for an event to occur then responds to it.
-        addEventListner : The addEventListener() method attaches an event handler to the specified element such as click,etc
+/* iii)event Listener : A function in JS that waits for an event to occur then responds to it.
+        addEventListener : The addEventListener() method attaches an event handler to the specified element such as click,etc
             Syntax : element.addEventListener(event,callback);   */
 
 /* Ex1 */
